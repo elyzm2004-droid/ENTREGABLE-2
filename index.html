@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proceso de Fabricación Industrial de Jabón
+(Saponificación)</title>
+<link link rel="stylesheet" href="styles.css">
+ 
+   </head>
+ 
+<body>
+    <article class="proceso-jabon">
+        <header>
+            <h1>🧪 Proceso de Fabricación Industrial de Jabón
+(Saponificación)</h1>
+            <h1>El proceso industrial de fabricación de jabón consiste en la
+saponificación de grasas o aceites con un álcali, seguido de lavado, reposo
+y secado.</h1>
+        </header>
+ 
+        <div class="container">
+            <img src="bar-soap-and-soap-bottle-with-foam-cartoon-illustration-vector.jpg"
+  alt="Proceso de fabricación de jabón"
+            >
+        </div>
+ 
+        <h2>🧴 Ingredientes del Jabón Industrial</h2>
+ 
+        <table class="tabla">
+            <tr>
+                <th>Ingrediente</th>
+                <th>Función</th>
+            </tr>
+            <!-- filas de la tabla -->
+            <tr>
+                <td>Sodium Cocoate / Sodium Palm Kernelate</td>
+                <td>Base jabonosa proveniente de aceites de coco o
+palmiste.</td>
+            </tr>
+            <!-- ... demás filas ... -->
+        </table>
+ 
+        <!-- Formulario / Cuestionario sobre el tema -->
+        <div class="survey-form">
+            <h2>📝 Cuestionario sobre el proceso de fabricación de
+jabón</h2>
+            <form action="procesar_encuesta.php" method="post">
+                <div class="question">
+                    <label>1. ¿Qué función cumple el Lauril Sulfato de Sodio
+(SLS) en el jabón industrial?</label>
+                    <input type="radio" id="q1_op1" name="q1"
+value="surfactante_espuma" required>
+                    <label for="q1_op1">Surfactante que produce espuma y
+limpia</label><br>
+                    <input type="radio" id="q1_op2" name="q1"
+value="conservante">
+                    <label for="q1_op2">Conservante que evita
+microorganismos</label><br>
+                    <input type="radio" id="q1_op3" name="q1"
+value="humectante">
+                    <label for="q1_op3">Humectante que retiene
+humedad</label><br>
+                </div>
+ 
+                <div class="question">
+                    <label>2. ¿Cuál de estos ingredientes podría usarse como
+grasa saponificada?</label>
+  <select name="q2" required>
+                        <option value="">-- Selecciona una opción -
+</option>
+                        <option value="sodium_tallowate">Sodium
+Tallowate</option>
+                        <option value="dipropylene_glycol">Dipropylene
+Glycol</option>
+                        <option value="edta">EDTA Tetrasódico</option>
+                    </select>
+                </div>
+ 
+                <div class="question">
+                    <label>3. ¿Crees que el uso de conservantes químicos
+como parabénos es adecuado en jabones industriales?</label>
+                    <textarea name="q3" rows="4" placeholder="Tu opinión
+..." required></textarea>
+                </div>
+ 
+                <div class="question">
+                    <label>4. ¿Qué tan común crees que sea usar fragancias
+fijadas con ftalatos en jabones recogidos comercialmente?</label>
+                    <input type="radio" id="q4_op1" name="q4"
+value="muy_comun" required>
+                    <label for="q4_op1">Muy común</label><br>
+                    <input type="radio" id="q4_op2" name="q4"
+value="algo_comun">
+                    <label for="q4_op2">Algo común</label><br>
+                    <input type="radio" id="q4_op3" name="q4"
+value="poco_comun">
+                    <label for("q4_op3")>Poco común</label><br>
+                    <input type="radio" id="q4_op4" name="q4" value="no_se">
+                    <label for("q4_op4")>No sé / depende del
+jabón</label><br>
+                </div>
+ 
+                <div class="question">
+                    <label>5. ¿Te gustaría recibir más información sobre la
+saponificación industrial de jabón?</label><br>
+                    <input type="checkbox" id="info_si" name="q5"
+value="si">
+                    <label for="info_si">Sí</label><br>
+                </div>
+ 
+                <input type="submit" value="Enviar respuestas">
+            </form>
+</div>
+</article>
+</body>
+</html>
